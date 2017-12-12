@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Clock</title>
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pomodoro.css">
+  
+  </head>
+  <body>
+    <main>
+  <div class="row">
+    <div class="timer-bar"></div>
+    <div class="pomodoro col-xs-12">
+    
+      <div class="title col-xs-12"><h1>Pomodoro Clock</h1></div>
+      <div class="session col-xs-12">
+      
+        <div class="col-xs-12"><p>Session Length:</p></div>
+        <div id="slider_div" class="col-xs-12"> 
+          <div id="slider">
+            <div id="custom_handle" class="ui-slider-handle"></div>
+          </div> 
+        </div>
+      
+      </div>
+      <div class="break col-xs-12">
+      
+        <div class="col-xs-12"><p>Break Length:</p></div>
+        <div id="slider_div" class="col-xs-12"> 
+          <div id="slider">
+            <div id="custom_handle" class="ui-slider-handle"></div>
+          </div> 
+        </div>
+      
+      </div>
+      <div class="timerB col-xs-12">
+        <div class="col-xs-7"><p>Time Elapsed: <span>00:00</span></p></div>
+        <div class="col-xs-5"><p class="begin">Begin</p></div>
+    </div>
+  </div>
+</main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  
+  <script src="pomodoroSetup.js"></script>
+  <script src="pomodoroLogic.js"></script>
+  <script src="pomodoroVar.js"></script>
+  </body>
+</html>
